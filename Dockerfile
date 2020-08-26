@@ -10,7 +10,7 @@ RUN add-apt-repository \
 RUN apt-get update -y
 RUN apt-get -y install docker-ce
 RUN apt-get install -y docker-ce
-RUN groupadd docker
+#RUN groupadd docker
 RUN usermod -a -G docker jenkins
 RUN chmod 777 /var/run/docker.sock
 
