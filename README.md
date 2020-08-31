@@ -21,3 +21,12 @@ sudo docker run -d -p 9082:5000 --restart=always --name jenkins-registry registr
 
 sudo ufw allow 9082
 
+Navigate to /etc/docker/daemon.json
+
+Add the followin json
+
+{
+  "insecure-registries" : ["ip:port"]
+}
+
+
