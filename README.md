@@ -14,6 +14,8 @@ install the following plugins
 
 * GitLab
 
+sudo ufw allow jenkins_port
+
 
 # Image registry
 
@@ -21,7 +23,7 @@ sudo docker pull registry
 
 sudo docker run -d -p 9082:5000 --restart=always --name jenkins-registry registry:2
 
-sudo ufw allow 9082
+sudo ufw allow registry_port
 
 Navigate to /etc/docker/daemon.json
 
