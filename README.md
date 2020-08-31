@@ -12,6 +12,8 @@ install the following plugins
 
 * docker-build-step 
 
+* GitLab
+
 
 # Image registry
 
