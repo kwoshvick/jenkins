@@ -18,3 +18,6 @@ install the following plugins
 sudo docker pull registry
 
 sudo docker run -d -p 9082:5000 --restart=always --name jenkins-registry registry:2
+
+sudo ufw allow 9082
+
