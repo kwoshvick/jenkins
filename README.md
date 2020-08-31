@@ -9,4 +9,5 @@ sudo docker logs -f jenkins-docker
 install the following plugins
 
 *Docker Pipeline
+
 *docker-build-step 
