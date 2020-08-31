@@ -11,3 +11,10 @@ install the following plugins
 * Docker Pipeline
 
 * docker-build-step 
+
+
+# Image registry
+
+sudo docker pull registry
+
+sudo docker run -d -p 9082:5000 --restart=always --name jenkins-registry registry:2
