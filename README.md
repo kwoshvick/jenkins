@@ -21,7 +21,7 @@ sudo ufw allow jenkins_port
 
 sudo docker pull registry
 
-sudo docker run -d -p 9082:5000 --restart=always --name jenkins-registry registry:2
+sudo docker run -d -p 9082:5000 --restart=always --name jenkins-registry registry:latest
 
 sudo ufw allow registry_port
 
